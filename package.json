@@ -1,14 +1,9 @@
 {
-  "name": "web-worker",
+  "name": "@eshaz/web-worker",
   "version": "1.2.0",
   "description": "Consistent Web Workers in browser and Node.",
   "main": "./cjs/node.js",
   "browser": "./cjs/browser.js",
-  "exports": {
-    "browser": "./cjs/browser.js",
-    "node": "./cjs/node.js",
-    "default": "./cjs/node.js"
-  },
   "types": "index.d.ts",
   "files": [
     "cjs",
@@ -26,7 +21,7 @@
       "babel-plugin-commonjs-lite"
     ]
   },
-  "repository": "developit/web-worker",
+  "repository": "https://github.com/eshaz/web-worker",
   "keywords": [
     "worker",
     "worker_threads",
@@ -37,7 +32,7 @@
   ],
   "authors": [],
   "license": "Apache-2.0",
-  "homepage": "https://github.com/developit/web-worker",
+  "homepage": "https://github.com/eshaz/web-worker",
   "eslintConfig": {
     "extends": "developit",
     "rules": {
