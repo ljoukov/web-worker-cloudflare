@@ -14,4 +14,6 @@
  * limitations under the License.
  */
 
-export default Worker;
+class DummyWorker extends EventTarget {}
+
+module.exports = DummyWorker;
